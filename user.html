@@ -12,9 +12,9 @@
 <body>
      
     <!-- navbar section--------start -->
-  <nav class="purple darken-3  top-navbar">
+  <nav class="purple  top-navbar">
     <div class="nav-wrapper">
-      <a href="#!" class="brand-logo hide-on-med-and-up">Home</a>
+      <a href="#!" class="brand-logo hide-on-med-and-up">User</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class=" hide-on-med-and-down">
         <li><a href="sass.html">Css</a></li>
@@ -43,12 +43,27 @@
   </ul>
     <!-- navbar section--------end -->  
     
-    <!-- Home section--------start -->  
-     <section class="flex-c-m flex-col sizefull p-r-20 p-l-20 p-t-100">
-      <img src="/imag/imag3.webp " class="w-full max-w-300">
-      <a class="waves-effect waves-light btn w-full max-w-250 m-t-10 mb-10 rounded-pill" href="/">programming tutorial</a>
-      <a class="waves-effect waves-light btn w-full max-w-250 m-t-10 mb-10 rounded-pill  " href="/user.html">user manager</a>
-     </section>
+    <!-- Home section--------start --> 
+       <section id="top-actions-section"></section>
+      <!--end button  -->
+      <div class="p-l-10 p-r-10 p-t-10">
+        <button class="waves-effect waves-light btn  purple darken-3 p-l-30 p-r-30 w-full rounded-pill flex-c">
+            <i class="material-icons m-r-5">add</i>
+            Add User
+        </button>
+    
+      </div>
+      <!--serch section -->
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="search" type="text" class="validate">
+            <label for="search">
+              <i class="material-icons pos-relative top-7">search</i>
+              Search
+            </label>
+          </div>
+    
+      </div>
        <!-- Home section--------end -->  
     
     <script src="/materialize/js/materialize.min.js"></script>

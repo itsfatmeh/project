@@ -12,3 +12,12 @@
         align-items: center !important;
     }
 }
+.user-list-item.user-list-arow{
+    transition: all 200ms ease;
+}
+.user-list-item.active .user-list-arow{
+    transform: rotate(180deg);
+}
+.user-list-item.active{
+    background-color: rgb(199, 196, 196);
+}

@@ -30,3 +30,10 @@ table.highlight > tbody > tr {
   table.highlight > tbody > tr:hover {
     background-color: #7b1fa2
   }
+.top-actions-section{
+    display: flex !important;
+    align-items: center !important;}
+
+.container{
+    width: 100% !important;
+}
